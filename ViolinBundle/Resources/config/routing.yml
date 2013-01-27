@@ -1,0 +1,15 @@
+vd_hackaton_violin_service_create:
+    pattern:  /service/create
+    defaults: { _controller: VDHackatonViolinBundle:Service:create }
+
+vd_hackaton_violin_service_query:
+    pattern:  /service/create
+    defaults: { _controller: VDHackatonViolinBundle:Service:query }
+    
+vd_hackaton_violin_service_stats:
+    pattern:  /service/create
+    defaults: { _controller: VDHackatonViolinBundle:Service:stats }
+    
+vd_hackaton_violin_homepage:
+    pattern:  /{page}
+    defaults: { _controller: VDHackatonViolinBundle:Default:index, page: index }
